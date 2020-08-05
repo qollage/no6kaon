@@ -23,6 +23,24 @@
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
   }
+  ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+  }
+  ul li {
+    margin: 0 auto;
+  }
+  ul li .img {
+    margin: 0;
+    color: #9b9bbe;
+    opacity: 0.5;
+  }
   .swiper-container {
     width: 50%;
     margin: 96.3px 0;
@@ -30,7 +48,8 @@
   .swiper-slide > a > img {
     width: 33%;
     height: 33%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   input,
   textarea {
@@ -38,13 +57,11 @@
     opacity: 0.5;
     display: inline-block;
   }
-  .footer {
-    p {
-      font-family: "Libre Barcode 128 Text", cursive;
-      font-weight: normal;
-      font-size: 20px;
-      letter-spacing: 9.63px;
-    }
+  .footer p {
+    font-family: "Libre Barcode 128 Text", cursive;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 9.63px;
   }
   .img {
     font-size: 10px;
@@ -93,17 +110,17 @@
   .swiper-slide > a > img {
     width: 50%;
     height: 50%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .footer {
-    p {
-      font-family: "Libre Barcode 128 Text", cursive;
-      font-weight: normal;
-      font-size: 15px;
-      letter-spacing: 1px;
-    }
+  .footer p {
+    font-family: "Libre Barcode 128 Text", cursive;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
 }
+
 @media screen and (max-width: 730px) {
   .header {
     display: none;
@@ -123,16 +140,20 @@
     margin-right: 20.11px;
   }
   .artistphoto {
-    margin: 0 0 10px 40px;
-    width: 294px;
-    height: 294px;
+    margin: 0 0 20px 60px;
+    width: 274px;
+    height: 274px;
   }
   .artist_prof {
     width: 330px;
   }
+  .artist_prof .description {
+    margin-right: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
   .description {
     font-size: 15px;
-    margin-right: 5px;
     letter-spacing: 1px;
   }
   .video {
@@ -149,15 +170,14 @@
   .swiper-slide > a > img {
     width: 50%;
     height: 50%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .footer {
-    p {
-      font-family: "Libre Barcode 128 Text", cursive;
-      font-weight: normal;
-      font-size: 15px;
-      letter-spacing: 1px;
-    }
+  .footer p {
+    font-family: "Libre Barcode 128 Text", cursive;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
 }
 
@@ -179,10 +199,13 @@
     width: 90%;
     margin-right: 20.11px;
   }
+  .artist_prof {
+    width: 100%;
+  }
   .artistphoto {
-    margin: 10px 0 0 10px;
-    width: 42.5%;
-    height: 42.5%;
+    margin: 15px 0 20px 40px;
+    width: 80%;
+    height: 80%;
   }
   .description {
     letter-spacing: 0;
@@ -194,9 +217,9 @@
   }
   .video {
     margin: 0;
-    iframe {
-      width: 100%;
-    }
+  }
+  .video iframe {
+    width: 100%;
   }
   .booking {
     font-size: 1px;
@@ -218,9 +241,9 @@
   .artist_prof {
     width: 305px;
     margin: 0 30px;
-    .title {
-      width: 305px;
-    }
+  }
+  .artist_prof .title {
+    width: 100%;
   }
   .video {
     width: 100%;
@@ -234,9 +257,9 @@
     display: block;
     width: 90%;
     margin-right: 11px;
-    .mobile_icon {
-      margin: 30px 0 0 50px;
-    }
+  }
+  .mobileheader .mobile_icon {
+    margin: 30px 0 0 50px;
   }
   .artistphoto {
     width: 305px;
@@ -264,9 +287,17 @@
     font-size: 15.11px;
     letter-spacing: 1px;
   }
+  .artistphoto {
+    margin: 20px 30px;
+    width: 250px;
+    height: 250px;
+  }
   .artist_prof {
-    width: 190px;
-    margin: 10px 65px;
+    width: 220px;
+    margin: 10px 50px;
+  }
+  .artist_prof .title {
+    width: 100%;
   }
   .video {
     width: 100%;
@@ -280,14 +311,9 @@
     display: block;
     width: 90%;
     margin-right: 11px;
-    .mobile_icon {
-      margin: 30px 0 0 50px;
-    }
   }
-  .artistphoto {
-    margin: 10px 30px;
-    width: 250px;
-    height: 250px;
+  .mobileheader .mobile_icon {
+    margin: 30px 0px;
   }
   .description {
     letter-spacing: 0;
@@ -297,3 +323,4 @@
     font-size: 20px;
   }
 }
+/*# sourceMappingURL=mobile.css.map */
