@@ -6,21 +6,21 @@
     float: left;
     font-size: 36.9px;
     letter-spacing: 3px;
-    font-family: 'Erica One', cursive;
+    font-family: "Erica One", cursive;
   }
   .title {
     color: whitesmoke;
-    font-family: 'Major Mono Display', monospace;
+    font-family: "Major Mono Display", monospace;
   }
   .artistphoto {
-    margin: 36.9px;
+    margin: 50px;
     width: 45%;
     height: 45%;
     float: left;
   }
   .description {
     letter-spacing: 3px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
   }
   .swiper-container {
@@ -30,8 +30,7 @@
   .swiper-slide > a > img {
     width: 33%;
     height: 33%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   input,
   textarea {
@@ -39,26 +38,31 @@
     opacity: 0.5;
     display: inline-block;
   }
-  .footer p {
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    letter-spacing: 9.63px;
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 20px;
+      letter-spacing: 9.63px;
+    }
+  }
+  .img {
+    font-size: 10px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .header {
     display: none;
   }
   .maintitle {
-    margin-left: 20.11px;
+    margin: 0 0 10px 10px;
     font-size: 20.11px;
     letter-spacing: 1px;
   }
   .title {
     margin: 0 0 15px;
-    font-size: 19.11px;
+    font-size: 20px;
   }
   .mobileheader {
     display: block;
@@ -66,13 +70,14 @@
     margin-right: 20.11px;
   }
   .artistphoto {
-    margin: 0 0 0 10px;
-    width: 40%;
-    height: 40%;
+    margin: 0 0 10px 48px;
+    width: 313px;
+    height: 313px;
   }
   .description {
     font-size: 15px;
-    margin-right: 15px;
+    margin-right: 5px;
+    letter-spacing: 3px;
   }
   .video {
     margin: 36.9px;
@@ -88,18 +93,75 @@
   .swiper-slide > a > img {
     width: 50%;
     height: 50%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
-  .footer p {
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-weight: normal;
-    font-size: 15px;
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  }
+}
+@media screen and (max-width: 730px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin: 0 0 10px 10px;
+    font-size: 20.11px;
     letter-spacing: 1px;
+  }
+  .title {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artistphoto {
+    margin: 0 0 10px 40px;
+    width: 294px;
+    height: 294px;
+  }
+  .artist_prof {
+    width: 330px;
+  }
+  .description {
+    font-size: 15px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+  }
+  .video {
+    margin: 36.9px;
+  }
+  .swiper-container {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 75%;
+    color: white;
+  }
+  .swiper-slide > a > img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 420px) {
   .header {
     display: none;
   }
@@ -110,7 +172,7 @@
   }
   .title {
     font-size: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
   .mobileheader {
     display: block;
@@ -118,17 +180,117 @@
     margin-right: 20.11px;
   }
   .artistphoto {
-    margin-top: 10px;
-    width: 44%;
-    height: 44%;
+    margin: 10px 0 0 10px;
+    width: 42.5%;
+    height: 42.5%;
   }
   .description {
     letter-spacing: 0;
     font-size: 1px;
-    margin: 5px 3px;
+    margin: 10px;
+  }
+  .video {
+    margin: 0;
+    iframe {
+      width: 100%;
+    }
   }
   .booking {
     font-size: 1px;
   }
 }
-/*# sourceMappingURL=mobile.css.map */
+
+@media screen and (max-width: 380px) {
+  .header {
+    display: none;
+  }
+  .img {
+    font-size: 6.9px;
+  }
+  .maintitle {
+    margin-left: 15.11px;
+    font-size: 15.11px;
+    letter-spacing: 1px;
+  }
+  .artist_prof {
+    width: 305px;
+    margin: 0 30px;
+    .title {
+      width: 305px;
+    }
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 11.20px;
+    margin-bottom: 5px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 11px;
+    .mobile_icon {
+      margin: 30px 0 0 50px;
+    }
+  }
+  .artistphoto {
+    width: 305px;
+    height: 305px;
+    margin: 0 30px 10px 30px;
+  }
+  .description {
+    letter-spacing: 0;
+    font-size: 9.20px;
+  }
+  .booking {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .header {
+    display: none;
+  }
+  .img {
+    font-size: 6.9px;
+  }
+  .maintitle {
+    margin-left: 15.11px;
+    font-size: 15.11px;
+    letter-spacing: 1px;
+  }
+  .artist_prof {
+    width: 190px;
+    margin: 10px 65px;
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 11.20px;
+    margin-bottom: 5px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 11px;
+    .mobile_icon {
+      margin: 30px 0 0 50px;
+    }
+  }
+  .artistphoto {
+    margin: 10px 30px;
+    width: 250px;
+    height: 250px;
+  }
+  .description {
+    letter-spacing: 0;
+    font-size: 9.20px;
+  }
+  .booking {
+    font-size: 20px;
+  }
+}
