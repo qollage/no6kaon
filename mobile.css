@@ -189,6 +189,9 @@
     font-size: 1px;
     margin: 10px;
   }
+  .img {
+    font-size: 5px;
+  }
   .video {
     margin: 0;
     iframe {
