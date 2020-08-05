@@ -1,0 +1,134 @@
+@media screen and (max-width: 1500px) {
+  .mobileheader {
+    display: none;
+  }
+  .maintitle {
+    float: left;
+    font-size: 36.9px;
+    letter-spacing: 3px;
+    font-family: 'Erica One', cursive;
+  }
+  .title {
+    color: whitesmoke;
+    font-family: 'Major Mono Display', monospace;
+  }
+  .artistphoto {
+    margin: 36.9px;
+    width: 45%;
+    height: 45%;
+    float: left;
+  }
+  .description {
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+  .swiper-container {
+    width: 50%;
+    margin: 96.3px 0;
+  }
+  .swiper-slide > a > img {
+    width: 33%;
+    height: 33%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  input,
+  textarea {
+    width: 44%;
+    opacity: 0.5;
+    display: inline-block;
+  }
+  .footer p {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 9.63px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin-left: 20.11px;
+    font-size: 20.11px;
+    letter-spacing: 1px;
+  }
+  .title {
+    margin: 0 0 15px;
+    font-size: 19.11px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artistphoto {
+    margin: 0 0 0 10px;
+    width: 40%;
+    height: 40%;
+  }
+  .description {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  .video {
+    margin: 36.9px;
+  }
+  .swiper-container {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 75%;
+    color: white;
+  }
+  .swiper-slide > a > img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .footer p {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin-left: 20.11px;
+    font-size: 20.11px;
+    letter-spacing: 1px;
+  }
+  .title {
+    font-size: 5px;
+    margin-bottom: 5px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artistphoto {
+    margin-top: 10px;
+    width: 44%;
+    height: 44%;
+  }
+  .description {
+    letter-spacing: 0;
+    font-size: 1px;
+    margin: 5px 3px;
+  }
+  .booking {
+    font-size: 1px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
