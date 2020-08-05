@@ -1,86 +1,55 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 body {
   background-color: black;
   margin: 0;
   padding: 0;
 }
+
 .seanronne {
   display: none;
 }
-// .title {
-//   font-family: 'Major Mono Display', monospace;
-// }
-// .maintitle {
-//   float: left;
-//   font-size: 36.9px;
-//   letter-spacing: 3px;
-//   font-family: 'Erica One', cursive;
-// }
-// .swiper-container {
-//   width: 50%;
-//   margin-bottom: 96.3px;
-// }
+
 .container {
   margin: 0 auto;
   color: white;
 }
+
 .swiper-container,
 .container {
   text-align: center;
   padding: 0;
   max-width: 1102px;
 }
-// .swiper-slide > a > img {
 
-//   width: 33%;
-//   height: 33%;
-//   object-fit: cover;
-// }
 .interview {
   width: 75%;
   height: 75%;
 }
-// .artistphoto {
-//   margin: 36.9px 0;
-//   width: 45%;
-//   height: 45%;
-//   float: left;
-// }
+
 .artist_prof {
   float: right;
 }
+
 .bcfm {
   color: yellow;
   text-decoration: none;
 }
-// .description {
-//   font-family: 'Open Sans', sans-serif;
-//   font-size: 20px;
-// }
-ul {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  li {
-    margin: 0 auto;
-    .img {
-      margin: 0;
-      color: rgb(155, 155, 190);
-      opacity: 0.5;
-    }
-  }
-}
+
 a {
   text-decoration: none;
 }
+
 .booking {
   font-family: 'Diplomata SC', cursive;
   display: inline;
   color: whitesmoke;
 }
+
 .booking:hover {
   color: yellow;
 }
+/*# sourceMappingURL=stylesheet.css.map */
