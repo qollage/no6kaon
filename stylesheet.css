@@ -1,47 +1,315 @@
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 1500px) {
+  .mobileheader {
+    display: none;
+  }
+  .maintitle {
+    float: left;
+    font-size: 36.9px;
+    letter-spacing: 3px;
+    font-family: "Erica One", cursive;
+  }
+  .title {
+    color: whitesmoke;
+    font-family: "Major Mono Display", monospace;
+  }
+  .artistphoto {
+    margin: 50px;
+    width: 45%;
+    height: 45%;
+    float: left;
+  }
+  .description {
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      margin: 0 auto;
+      .img {
+        margin: 0;
+        color: ivory;
+      }
+    }
+  }
+  .swiper-container {
+    width: 50%;
+    margin: 96.3px 0;
+  }
+  .swiper-slide > a > img {
+    width: 33%;
+    height: 33%;
+    object-fit: cover;
+  }
+  input,
+  textarea {
+    width: 44%;
+    opacity: 0.5;
+    display: inline-block;
+  }
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 20px;
+      letter-spacing: 9.63px;
+    }
+  }
+  .img {
+    font-size: 10px;
+  }
 }
-body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 900px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin: 0 0 10px 10px;
+    font-size: 20.11px;
+    letter-spacing: 1px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artistphoto {
+    margin: 5px 0 10px 78px;
+    width: 313px;
+    height: 313px;
+  }
+  .artist_prof {
+    .title {
+      margin: 0 0 15px;
+      font-size: 20px;
+    }
+    .description {
+      font-size: 15px;
+      margin-right: 30px;
+      letter-spacing: 3px;
+    }
+  }
+  .video {
+    margin: 36.9px;
+  }
+  .swiper-container {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 75%;
+    color: white;
+  }
+  .swiper-slide > a > img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  }
 }
-.seanronne {
-  display: none;
+@media screen and (max-width: 730px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin: 0 0 10px 10px;
+    font-size: 20.11px;
+    letter-spacing: 1px;
+  }
+  .title {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artistphoto {
+    margin: 0 0 20px 60px;
+    width: 274px;
+    height: 274px;
+  }
+  .artist_prof {
+    width: 330px;
+    .description {
+      margin-right: 10px;
+      font-size: 10px;
+      letter-spacing: 3px;
+    }
+  }
+  .description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+  .video {
+    margin: 36.9px;
+  }
+  .swiper-container {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 75%;
+    color: white;
+  }
+  .swiper-slide > a > img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .footer {
+    p {
+      font-family: "Libre Barcode 128 Text", cursive;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  }
 }
+@media screen and (max-width: 420px) {
+  .header {
+    display: none;
+  }
+  .maintitle {
+    margin-left: 20.11px;
+    font-size: 20.11px;
+    letter-spacing: 1px;
+  }
+  .title {
+    font-size: 5px;
+    margin-bottom: 10px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 20.11px;
+  }
+  .artist_prof {
+    width: 100%;
+  }
+  .artistphoto {
+    margin: 15px 0 20px 40px;
+    width: 80%;
+    height: 80%;
+  }
+  .description {
+    letter-spacing: 0;
+    font-size: 1px;
+    margin: 10px;
+  }
+  .img {
+    font-size: 5px;
+  }
+  .video {
+    margin: 0;
+    iframe {
+      width: 100%;
+    }
+  }
+  .booking {
+    font-size: 1px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header {
+    display: none;
+  }
+  .img {
+    font-size: 6.9px;
+  }
+  .maintitle {
+    margin-left: 15.11px;
+    font-size: 15.11px;
+    letter-spacing: 1px;
+  }
+  .artist_prof {
+    width: 305px;
+    margin: 0 30px;
+    .title {
+      width: 100%;
+    }
+    .description {
+      letter-spacing: 0;
+      font-size: 9.2px;
+    }
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 11.2px;
+    margin-bottom: 5px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 11px;
+    .mobile_icon {
+      margin: 30px 0 0 50px;
+    }
+  }
+  .artistphoto {
+    width: 305px;
+    height: 305px;
+    margin: 0 30px 10px 30px;
+  }
 
-.container {
-  margin: 0 auto;
-  color: white;
+  .booking {
+    font-size: 20px;
+  }
 }
-.swiper-container,
-.container {
-  text-align: center;
-  padding: 0;
-  max-width: 1102px;
-}
-
-.interview {
-  width: 75%;
-  height: 75%;
-}
-
-.artist_prof {
-  float: right;
-}
-.bcfm {
-  color: yellow;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-.booking {
-  font-family: 'Diplomata SC', cursive;
-  display: inline;
-  color: whitesmoke;
-}
-.booking:hover {
-  color: yellow;
+@media screen and (max-width: 330px) {
+  .img {
+    font-size: 6.9px;
+  }
+  .maintitle {
+    margin-left: 15.11px;
+    font-size: 15.11px;
+    letter-spacing: 1px;
+  }
+  .artistphoto {
+    margin: 20px 30px;
+    width: 250px;
+    height: 250px;
+  }
+  .artist_prof {
+    width: 220px;
+    margin: 10px 50px;
+    .title {
+      width: 100%;
+    }
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 11.2px;
+    margin-bottom: 5px;
+  }
+  .mobileheader {
+    display: block;
+    width: 90%;
+    margin-right: 11px;
+    .mobile_icon {
+      margin: 30px 0px;
+    }
+  }
+  .booking {
+    font-size: 20px;
+  }
 }
